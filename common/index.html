@@ -20,7 +20,7 @@
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.28">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.29">
     
     
       
@@ -28,7 +28,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.6543a935.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.76a95c52.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
@@ -580,9 +580,27 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#paqprueba.common.get_version" class="md-nav__link">
+    <span class="md-ellipsis">
+      get_version()
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#paqprueba.common.hello_world" class="md-nav__link">
     <span class="md-ellipsis">
       hello_world()
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#paqprueba.common.random_number" class="md-nav__link">
+    <span class="md-ellipsis">
+      random_number()
     </span>
   </a>
   
@@ -640,9 +658,27 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#paqprueba.common.get_version" class="md-nav__link">
+    <span class="md-ellipsis">
+      get_version()
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#paqprueba.common.hello_world" class="md-nav__link">
     <span class="md-ellipsis">
       hello_world()
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#paqprueba.common.random_number" class="md-nav__link">
+    <span class="md-ellipsis">
+      random_number()
     </span>
   </a>
   
@@ -694,6 +730,53 @@
 
 
 
+<h2 id="paqprueba.common.get_version" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">get_version</span><span class="p">()</span></code>
+
+
+<a href="#paqprueba.common.get_version" class="headerlink" title="Permanent link">&para;</a></h2>
+
+    <div class="doc doc-contents ">
+
+      <p>Returns the version of the paqprueba package.</p>
+
+<p><strong>Returns:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>str</code></td>
+      <td><p>The version of the paqprueba package.</p></td>
+    </tr>
+  </tbody>
+</table>
+        <details class="quote">
+          <summary>Source code in <code>paqprueba/common.py</code></summary>
+          <div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">get_version</span><span class="p">():</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Returns the version of the paqprueba package.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        str: The version of the paqprueba package.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">return</span> <span class="s2">&quot;0.0.1&quot;</span>
+</code></pre></div>
+        </details>
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-function">
+
+
+
 <h2 id="paqprueba.common.hello_world" class="doc doc-heading">
 <code class="highlight language-python"><span class="n">hello_world</span><span class="p">()</span></code>
 
@@ -710,6 +793,54 @@
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Prints &quot;Hello World!&quot; to the console.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello World!&quot;</span><span class="p">)</span>
+</code></pre></div>
+        </details>
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-function">
+
+
+
+<h2 id="paqprueba.common.random_number" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">random_number</span><span class="p">()</span></code>
+
+
+<a href="#paqprueba.common.random_number" class="headerlink" title="Permanent link">&para;</a></h2>
+
+    <div class="doc doc-contents ">
+
+      <p>Return a random number between 0 and 1.</p>
+
+<p><strong>Returns:</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>float</code></td>
+      <td><p>A random number between 0 and 1.</p></td>
+    </tr>
+  </tbody>
+</table>
+        <details class="quote">
+          <summary>Source code in <code>paqprueba/common.py</code></summary>
+          <div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">random_number</span><span class="p">():</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Return a random number between 0 and 1.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        float: A random number between 0 and 1.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="kn">import</span> <span class="nn">random</span>
+    <span class="k">return</span> <span class="n">random</span><span class="o">.</span><span class="n">random</span><span class="p">()</span>
 </code></pre></div>
         </details>
     </div>
