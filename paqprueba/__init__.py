@@ -3,3 +3,5 @@
 __author__ = """Evelyn Tengler"""
 __email__ = "tenglerevelyn@gmail.com"
 __version__ = "0.0.2"
+
+from .paqprueba import Map
