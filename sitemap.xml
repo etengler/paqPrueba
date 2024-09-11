@@ -2,52 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://etengler.github.io/paqprueba/</loc>
-         <lastmod>2024-08-02</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-11</lastmod>
     </url>
     <url>
          <loc>https://etengler.github.io/paqprueba/changelog/</loc>
-         <lastmod>2024-08-02</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-11</lastmod>
     </url>
     <url>
          <loc>https://etengler.github.io/paqprueba/common/</loc>
-         <lastmod>2024-08-02</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-11</lastmod>
     </url>
     <url>
          <loc>https://etengler.github.io/paqprueba/contributing/</loc>
-         <lastmod>2024-08-02</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-11</lastmod>
     </url>
     <url>
          <loc>https://etengler.github.io/paqprueba/faq/</loc>
-         <lastmod>2024-08-02</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-11</lastmod>
     </url>
     <url>
          <loc>https://etengler.github.io/paqprueba/installation/</loc>
-         <lastmod>2024-08-02</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-11</lastmod>
     </url>
     <url>
          <loc>https://etengler.github.io/paqprueba/paqprueba/</loc>
-         <lastmod>2024-08-02</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-11</lastmod>
     </url>
     <url>
          <loc>https://etengler.github.io/paqprueba/usage/</loc>
-         <lastmod>2024-08-02</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-11</lastmod>
     </url>
     <url>
          <loc>https://etengler.github.io/paqprueba/examples/demo/</loc>
-         <lastmod>2024-08-02</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-11</lastmod>
     </url>
     <url>
          <loc>https://etengler.github.io/paqprueba/examples/intro/</loc>
-         <lastmod>2024-08-02</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-09-11</lastmod>
+    </url>
+    <url>
+         <loc>https://etengler.github.io/paqprueba/examples/ipyleaflet/</loc>
+         <lastmod>2024-09-11</lastmod>
     </url>
 </urlset>
