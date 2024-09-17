@@ -13,7 +13,8 @@
 
 ## Features
 
--   Generate a random number
+-   Create interactive maps
+-   Visualize geoespatial data
 
 
 ## Demos

@@ -83,6 +83,9 @@ nav:
         - examples/intro.ipynb
         - examples/demo.ipynb
         - examples/csv.ipynb
+        - examples/ipyleaflet.ipynb
+        - examples/ipywidgets.ipynb
+        - examples/raster.ipynb
     - API Reference:
           - paqprueba module: paqprueba.md
           - common module: common.md
