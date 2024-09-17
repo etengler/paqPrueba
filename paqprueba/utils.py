@@ -6,13 +6,7 @@ def csv_to_df(csv_file):
 
     Args:
         csv_file (str): la direccion del archivo csv
-    """    
+    """
     import pandas as pd
-    
+
     return pd.read_csv(csv_file)
-
-
-     
-
-    
-    

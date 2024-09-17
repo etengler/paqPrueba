@@ -10,7 +10,7 @@
 
 -   Free software: MIT License
 -   Documentation: [https://etengler.github.io/paqprueba](https://etengler.github.io/paqPrueba/)
-    
+
 
 ## Features
 
